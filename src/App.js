@@ -28,6 +28,8 @@ import AdminSettings from "./pages/admin/AdminSettings";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
+import CookieBanner from "./componenets/CookieBanner";
+
 function App() {
   return (
     <>
@@ -62,6 +64,7 @@ function App() {
             <Route path="/pp" element={<PrivacyPolicy />} />
           </Routes>
           <Footer />
+          <CookieBanner />
         </BrowserRouter>
       </AuthProvider>
     </>
